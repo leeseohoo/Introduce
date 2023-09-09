@@ -1,0 +1,40 @@
+#title {font-family: 'Changa One', cursive;}		
+* {margin: 0; padding: 0;}
+body {font-family: 'Hi Melody', cursive; width: 960px; margin: 0 auto;}
+li {list-style: none;}
+a {text-decoration: none;}
+img {border: 0;}
+
+table {display: inline-block;}
+#footer {text-align: right;}
+
+/* font-family: 'Times New Roman', serif;/222,874/*/
+
+input:nth-of-type(1) {display: none;}
+input:nth-of-type(1)~div:nth-of-type(1) {display: none;}
+input:nth-of-type(1):checked~div:nth-of-type(1) {display: block;}
+
+input:nth-of-type(2) {display: none;}
+input:nth-of-type(2)~div:nth-of-type(2) {display: none;}
+input:nth-of-type(2):checked~div:nth-of-type(2) {display: block;}
+
+input:nth-of-type(3) {display: none;}
+input:nth-of-type(3)~div:nth-of-type(3) {display: none;}
+input:nth-of-type(3):checked~div:nth-of-type(3) {display: block;}
+
+input:nth-of-type(4) {display: none;}
+input:nth-of-type(4)~div:nth-of-type(4) {display: none;}
+input:nth-of-type(4):checked~div:nth-of-type(4) {display: block;}
+
+.tab-title {overflow: hidden;}
+.tab-title>label {display: block; float: left; width: 238px; height: 33px; line-height: 33px; text-align: center; border: 1px solid black; background-color: black; color: #E8D9FF;}
+
+input:nth-of-type(1):checked~section.tab-title>label:nth-of-type(1) {border-radius: 15px 0 0 0; background: white; color: #3D0099; border-bottom: white;}
+input:nth-of-type(2):checked~section.tab-title>label:nth-of-type(2) {border-radius: 15px 0 0 0; background: white; color: #290066; border-bottom: white;}
+input:nth-of-type(3):checked~section.tab-title>label:nth-of-type(3) {border-radius: 0 15px 0 0; background: white; color: #3D0099; border-bottom: white;}
+input:nth-of-type(4):checked~section.tab-title>label:nth-of-type(4) {border-radius: 0 15px 0 0; background: white; color: #290066; border-bottom: white;}
+
+.item {overflow: hidden; width: 938px; padding: 10px; border: 1px solid black; border-top: none;}
+.thumbnail {float: left;}
+.description {float: left; margin-left: 10px;}
+.description>h1 {display: block; overflow: hidden;}
